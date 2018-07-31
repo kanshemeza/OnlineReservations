@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h2>Register</h2>
+
+<form>
+    <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter First Name">
+    </div>
+
+    <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" class="form-control" id="lastname" aria-describedby="emailHelp" placeholder="Enter Last Name">
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+
+    <div class="form-group">
+        <label for="city">City</label>
+        <input type="text" class="form-control" id="city" aria-describedby="emailHelp" placeholder="Enter City">
+    </div>
+
+    <div class="form-group">
+        <label for="State">State</label>
+        <select for="State" required class="form-control">
+
+            <option value="Illinois">Illinois</option>
+            <option value="Wisconsin">Wisconsin</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

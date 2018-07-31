@@ -1,5 +1,4 @@
 ﻿body {
-    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -32,4 +31,13 @@
     .carousel-caption {
         display: none;
     }
+}
+
+.nbb{
+    font-size: 2.1em;
+    padding-top: 0px;
+}
+
+.nb {
+    font-size: 1.7em;
 }
